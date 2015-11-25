@@ -6,3 +6,5 @@ golf_contacts = {
   olivia: 'didYouSeeWhereThatWent@example.com',
   joan: 'bestShortGameEver@example.com'
 }
+
+puts [golf_contacts[:samantha], golf_contacts[:jane], golf_contacts[:olivia]].join(', ')
